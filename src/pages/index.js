@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { Product, FooterBanner, HeroBanner } from '../components';
+
 
 export default function Home() {
   return (
@@ -13,25 +15,17 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"  />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet" />
       </Head>
-      <main className='products-heading'>
-        HeroBanner
-        <div>
-          <h1>The ultimate phone accessory destination</h1>
-          <p>Find the perfect accessory to make your phone pop</p>
+      <div>
+        <HeroBanner />
+        <div className='product-heading'>
+          <h1>Best Selling Accessories</h1>
+          <p>Good Headphones</p>
         </div>
-
-        Products
-        <div>
-          {['product1', 'product2'].map((product)=> 
-            product
-          )}
+        <div className='product-container'>
+          {['product1', 'product2'].map((product) => product)}
         </div>
-
-        Footer
-        <div>
-          Footer
-        </div>
-      </main>
+        <FooterBanner />
+      </div>
     </>
   )
 }
