@@ -25,7 +25,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/Shai9/Tech-Temple.git`
 2. Install dependencies: `npm install`
-3. Set up environment variables for Stripe and MongoDB
+3. Set up environment variables for Stripe and Sanity
 4. Start the server: `npm run server`
 5. Start the client: `npm run client`
 6. Visit http://localhost:3000 in your web browser to view the app
