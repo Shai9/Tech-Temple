@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import product from '../../sanity/schemas/product'
+import Head from 'next/head';
+
 
 export default function Home() {
   return (

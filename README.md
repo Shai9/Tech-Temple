@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Phone Accessories Ecommerce Store
+
+This is an online ecommerce store for phone accessories. The store allows users to browse and purchase phone cases, chargers, headphones, and other accessories for their mobile devices.
+
+## Features
+
+- Browse products by category or search for specific items
+- View product details, including images, descriptions, and prices
+- Add products to a shopping cart
+- Check out and make payments securely
+- View order history and tracking information
+- Sign up for an account to save shipping and payment information
+- Contact customer support for assistance
+
+## Technologies Used
+
+- Nextjs 13 for the front-end
+- Sanity for the back-end
+- SanityDb for the database
+- Stripe for payment processing
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository: `git clone https://github.com/Shai9/Tech-Temple.git`
+2. Install dependencies: `npm install`
+3. Set up environment variables for Stripe and MongoDB
+4. Start the server: `npm run server`
+5. Start the client: `npm run client`
+6. Visit http://localhost:3000 in your web browser to view the app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Contributions are welcome! To contribute to this project, follow these steps:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m "Add feature"`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any questions or concerns about this project, please contact me at calmus885@example.com.
